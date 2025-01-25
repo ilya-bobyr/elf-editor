@@ -1,0 +1,10 @@
+[package]
+name = "elf-editor"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+clap = { version = "4.5.27", features = ["derive"] }
+goblin = "0.9.3"
+pretty_assertions = "1.4.1"
+scroll = "0.12.0"
